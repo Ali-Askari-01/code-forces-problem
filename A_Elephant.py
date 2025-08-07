@@ -1,3 +1,7 @@
-x = int(input())
-count = (x + 4) // 5
+x=int(input())
+count=0
+if (x%5==0):
+  count=x//5
+else:
+  count=(x//5)+1
 print(count)
